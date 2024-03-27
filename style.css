@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    width: 3050px;
+    height: 800px;
+}
+
+.image {
+    display: block;
+    width: 1700px;
+    height: 700px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.text-header {
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px; 
+    text-align: center;
+    z-index: 1; 
+    margin: 120px;
+}
